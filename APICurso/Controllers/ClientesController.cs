@@ -5,7 +5,7 @@ using APICurso.Models;
 
 namespace APICurso.Controllers
 {
-    [RoutePrefix("Api/Clientes")] //para alunos
+    [RoutePrefix("Api/Clientes")] 
     public class ClientesController : ApiController
     {
         //Pegar a lista de Clientes
